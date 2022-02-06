@@ -558,6 +558,11 @@ rownames(barras_WHINE) <- c("Red Neuronal","KNN","Random Forest","Naive Bayes","
 
 ########################INTERFAZ DEL SERVIDOR########################
 shinyServer(function(input, output) {
+     
+     output$keepAlive <- renderText({
+      req(input$count)
+      paste("keep alive ", input$count)
+    })
   #####DATASET IRIS - PÁGINA 1#####
   algoritmo1Input <- reactive({
     switch(input$select1,
