@@ -89,3 +89,4 @@ tags$head(
           "
         )
         ),
+textOutput("keepAlive")
