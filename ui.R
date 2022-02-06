@@ -69,9 +69,8 @@ navbarPage(
              )
            )
   )
-)
-
-tags$head(
+  
+  tags$head(
         HTML(
           "
           <script>
@@ -90,3 +89,6 @@ tags$head(
         )
         ),
 textOutput("keepAlive")
+
+)
+
