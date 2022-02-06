@@ -1,5 +1,6 @@
 ###################INTERFAZ DEL USUARIO####################
 library(shiny)
+library(DT)
 navbarPage(
   "Machine Learning",
   tabPanel("Dataset de Iris",
