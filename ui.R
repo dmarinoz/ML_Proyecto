@@ -1,11 +1,12 @@
 ###################INTERFAZ DEL USUARIO####################
+library(shiny)
 navbarPage(
   "Machine Learning",
   tabPanel("Dataset de Iris",
            sidebarLayout(
              sidebarPanel(
                selectInput("select1","Algoritmo a aplicar:",
-                           choices = list("KNN"="knn","Random Forest"="rf","Naive Bayes"="nb","Regresión Logística"="rl","Red Neuronal"="rn","Máquina de Soporte Vectorial"="msv")
+                           choices = list("KNN"="knn","Random Forest"="rf","Naive Bayes"="nb","RegresiÃ³n LogÃ­stica"="rl","Red Neuronal"="rn","MÃ¡quina de Soporte Vectorial"="msv")
                )
              ),
              # Show a plot of the generated distribution
@@ -24,7 +25,7 @@ navbarPage(
            sidebarLayout(
              sidebarPanel(
                selectInput("select2","Algoritmo a aplicar:",
-                           choices = list("KNN"="knn","Random Forest"="rf","Naive Bayes"="nb","Regresión Logística"="rl","Red Neuronal"="rn","Máquina de Soporte Vectorial"="msv")
+                           choices = list("KNN"="knn","Random Forest"="rf","Naive Bayes"="nb","RegresiÃ³n LogÃ­stica"="rl","Red Neuronal"="rn","MÃ¡quina de Soporte Vectorial"="msv")
                )
              ),
              # Show a plot of the generated distribution
