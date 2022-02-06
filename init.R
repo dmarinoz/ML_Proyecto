@@ -3,7 +3,7 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("shiny", "class", "caTools", "caret", "randomForest", "tree", "e1071", "naivebayes", "C50", "VGAM", "neuralnet")
+my_packages = c("shiny", "class", "caTools", "caret", "randomForest", "tree", "e1071", "naivebayes", "C50", "VGAM", "neuralnet","DT")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
