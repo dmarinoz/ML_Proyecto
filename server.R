@@ -89,9 +89,6 @@ rownames(barras) <- c("Red Neuronal","KNN","Random Forest","Naive Bayes","Regres
 #data(wine)
 #datasetWhine = wine
 
-wine <- read_csv("https://raw.githubusercontent.com/dmarinoz/ML_Proyecto/main/wine.data")
-datasetWhine = wine
-
 
 
 Valores <- c("Acurracy","Precision","Recall","F1","ROC")
