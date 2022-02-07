@@ -29,8 +29,8 @@ navbarPage(
                  ),
                  # Show a plot of the generated distribution
                  mainPanel(
-                     h1("Wine Dataset"),
-                     DT::dataTableOutput('view3'),
+                     #h1("Wine Dataset"),
+                     #DT::dataTableOutput('view3'),
                      h1("Algoritmo"),
                      DT::dataTableOutput('view4'),
                      h1("Curva ROC"),
