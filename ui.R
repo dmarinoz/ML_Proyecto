@@ -1,7 +1,7 @@
 ###################INTERFAZ DEL USUARIO####################
 navbarPage(
     "Machine Learning",
-    tabPanel("Dataset de Iris,
+    tabPanel("Dataset de Iris",
              sidebarLayout(
                  sidebarPanel(
                      selectInput("select1","Algoritmo a aplicar:",
