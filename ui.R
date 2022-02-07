@@ -1,7 +1,7 @@
 ###################INTERFAZ DEL USUARIO####################
 navbarPage(
     "Machine Learning",
-    tabPanel("Dataset de Iris (70% Training y 30% Test)",
+    tabPanel("Dataset de Iris,
              sidebarLayout(
                  sidebarPanel(
                      selectInput("select1","Algoritmo a aplicar:",
@@ -10,7 +10,7 @@ navbarPage(
                  ),
                  # Show a plot of the generated distribution
                  mainPanel(
-                     h1("Iris Dataset"),
+                     h1("Iris Dataset (70% Training y 30% Test)"),
                      DT::dataTableOutput('view1'),
                      h1("Algoritmo"),
                      DT::dataTableOutput('view2'),
@@ -20,7 +20,7 @@ navbarPage(
              )
              
     ),
-    tabPanel("Dataset de Wine (70% Training y 30% Test)",
+    tabPanel("Dataset de Wine",
              sidebarLayout(
                  sidebarPanel(
                      selectInput("select2","Algoritmo a aplicar:",
@@ -29,7 +29,7 @@ navbarPage(
                  ),
                  # Show a plot of the generated distribution
                  mainPanel(
-                     h1("Wine Dataset"),
+                     h1("Wine Dataset (70% Training y 30% Test)"),
                      DT::dataTableOutput('view3'),
                      h1("Algoritmo"),
                      DT::dataTableOutput('view4'),
